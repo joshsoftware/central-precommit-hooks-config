@@ -689,18 +689,6 @@ The configuration is applied to the developer's Git environment.
 
 Another user account on the same machine would require its own configuration.
 
-### Bypass
-
-Git allows users to bypass client-side hooks with:
-
-```bash
-git commit --no-verify
-```
-
-Therefore, a client-side pre-commit hook should not be considered the only security enforcement mechanism for organization-wide security requirements.
-
-For mandatory enforcement, server-side or CI/CD controls should be considered as a complementary layer.
-
 ### Existing developer workflows
 
 Some developers may already use:
